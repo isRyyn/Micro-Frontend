@@ -269,7 +269,7 @@
     {
       "alias": "user",
       "consumingFederationContainerName": "host",
-      "federationContainerName": "http://localhost:4202/remoteEntry.mjs",
+      "federationContainerName": "https://fanta-user.admin.netlify.app/remoteEntry.mjs",
       "moduleName": "Module",
       "usedIn": [
         "consume shared module (default) user/Module@* (strict) (fallback: apps/user/src/app/remote-entry/entry.module.ts)"
@@ -279,7 +279,7 @@
     {
       "alias": "admin",
       "consumingFederationContainerName": "host",
-      "federationContainerName": "http://localhost:4201/remoteEntry.mjs",
+      "federationContainerName": "https://fanta-admin.netlify.app/remoteEntry.mjs",
       "moduleName": "Module",
       "usedIn": [
         "consume shared module (default) admin/Module@* (strict) (fallback: apps/admin/src/app/remote-entry/entry.module.ts)"

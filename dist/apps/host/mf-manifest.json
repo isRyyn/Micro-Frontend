@@ -240,13 +240,13 @@
   ],
   "remotes": [
     {
-      "federationContainerName": "http://localhost:4202/remoteEntry.mjs",
+      "federationContainerName": "https://fanta-user.admin.netlify.app/remoteEntry.mjs",
       "moduleName": "Module",
       "alias": "user",
       "entry": "*"
     },
     {
-      "federationContainerName": "http://localhost:4201/remoteEntry.mjs",
+      "federationContainerName": "https://fanta-admin.netlify.app/remoteEntry.mjs",
       "moduleName": "Module",
       "alias": "admin",
       "entry": "*"
