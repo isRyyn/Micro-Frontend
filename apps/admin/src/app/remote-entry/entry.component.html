@@ -1,0 +1,26 @@
+<h1 class="heading">Hello, {{user.name }}!</h1>
+<div class="card-container">
+    <div class="card">
+        <h3>Add new user</h3>
+        <p>Create a new user account with all the required details.</p>
+        <button (click)="addUser()">Add User</button>
+    </div>
+</div>
+<ng-container *ngIf="showInput">
+    <input *ngIf="showInput" class="heading" [(ngModel)]="name">
+    <button [disabled]="!name" (click)="save()">Save</button>
+</ng-container>
+
+<div class="heading">
+    <h3>Users: </h3>
+    <ul *ngFor="let user of usersList" class="custom-list">
+        <li>
+            <span class="item-name">{{ user.first_name }} {{ user.last_name }}</span>
+            <div class="actions">
+                <button class="btn edit-btn">Edit</button>
+                <button class="btn delete-btn" (click)="delete(user.id)">Delete</button>
+            </div>
+        </li>
+
+    </ul>
+</div>

@@ -1,0 +1,78 @@
+
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+    color: white;
+    position: relative;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    animation: logo-fade-in 1s ease-in-out;
+  }
+  
+  /* Links styling and hover effects */
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    position: relative;
+    transition: color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .navbar-links a::after {
+    content: '';
+    display: block;
+    height: 2px;
+    background: white;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 0;
+    transition: width 0.3s ease, left 0.3s ease;
+  }
+  
+  .navbar-links a:hover::after {
+    width: 100%;
+    left: 0;
+  }
+  
+  .navbar-links a:hover {
+    color: #ffcc00;
+  }
+  
+  .active-link {
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    transition: border-bottom 0.3s ease;
+  }
+  
+  /* Navbar scroll effect */
+  .navbar.scrolled {
+    background-color: #222;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Animations */
+  @keyframes logo-fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

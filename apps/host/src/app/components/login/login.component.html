@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="login-form-container">
+        <form [formGroup]="loginForm">
+            <div class="form-group form-row">
+              <input formControlName="username" placeholder="Enter email or mobile no" 
+                type="text" class="form-control custom-input">
+            </div>
+            <div class="form-group form-row">
+              <input formControlName="password" placeholder="Enter password" 
+                type="password" class="form-control custom-input">
+            </div>
+            <select class="form-select custom-select" formControlName="role" placeholder="Role">
+                <option value="" disabled selected>Select your role</option>
+                <option value="admin">Admin</option>
+                <option value="user">User</option>
+              </select>
+            <lib-button style="margin-left: 80px;" class="login-btn" label="Login" (click)="onSubmit()"></lib-button>
+          </form>
+    </div>
+  </div>
+  

@@ -2,7 +2,11 @@
   "name": "@micro-frontend/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dev": "npx nx run host:serve --devRemotes=admin,user --watch=true",
+    "admin": "npx nx run admin:serve --watch=true",
+    "user": "npx nx run user:serve --watch=true"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~18.2.0",
@@ -13,6 +17,7 @@
     "@angular/platform-browser": "~18.2.0",
     "@angular/platform-browser-dynamic": "~18.2.0",
     "@angular/router": "~18.2.0",
+    "@nx/angular": "19.6.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
@@ -27,11 +32,13 @@
     "@angular/cli": "~18.2.0",
     "@angular/compiler-cli": "~18.2.0",
     "@angular/language-service": "~18.2.0",
-    "@nx/angular": "19.6.1",
+    "@module-federation/enhanced": "~0.2.3",
     "@nx/eslint": "19.6.1",
     "@nx/eslint-plugin": "19.6.1",
     "@nx/jest": "19.6.1",
     "@nx/js": "19.6.1",
+    "@nx/web": "19.6.1",
+    "@nx/webpack": "19.6.1",
     "@nx/workspace": "19.6.1",
     "@schematics/angular": "~18.2.0",
     "@swc-node/register": "~1.9.1",
