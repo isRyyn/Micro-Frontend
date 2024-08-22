@@ -14,7 +14,7 @@ const config: ModuleFederationConfig = {
    * declare module 'my-external-remote';
    *
    */
-  remotes: [['admin', 'https://fanta-admin.netlify.app'], ['user', 'https://fanta-user.admin.netlify.app']],
+  remotes: [['admin', 'https://fanta-admin.netlify.app'], ['user', 'https://fanta-user.netlify.app']],
 };
 
 export default config;
