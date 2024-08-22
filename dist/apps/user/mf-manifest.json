@@ -1,0 +1,209 @@
+{
+  "id": "user",
+  "name": "user",
+  "metaData": {
+    "name": "user",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.0",
+      "buildName": "@micro-frontend/source"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.mjs",
+      "path": "",
+      "type": "module"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "user",
+    "pluginVersion": "0.2.8",
+    "publicPath": "auto"
+  },
+  "shared": [
+    {
+      "id": "user:@angular/common/http",
+      "name": "@angular/common/http",
+      "version": "18.2.0",
+      "singleton": true,
+      "requiredVersion": "^18.2.0",
+      "assets": {
+        "js": {
+          "async": [
+            "177.2bb31abe31023038.js",
+            "953.609bdb25171344c9.js",
+            "656.05bb6f94fbd41c28.js",
+            "87.20dbd77dcb3a8706.js",
+            "37.bf6d63e0bdd041ba.js"
+          ],
+          "sync": [
+            "626.abe8a82209099999.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "user:@angular/common",
+      "name": "@angular/common",
+      "version": "18.2.0",
+      "singleton": true,
+      "requiredVersion": "^18.2.0",
+      "assets": {
+        "js": {
+          "async": [
+            "953.609bdb25171344c9.js",
+            "656.05bb6f94fbd41c28.js",
+            "87.20dbd77dcb3a8706.js",
+            "37.bf6d63e0bdd041ba.js"
+          ],
+          "sync": [
+            "177.2bb31abe31023038.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "user:@angular/core",
+      "name": "@angular/core",
+      "version": "18.2.0",
+      "singleton": true,
+      "requiredVersion": "^18.2.0",
+      "assets": {
+        "js": {
+          "async": [
+            "656.05bb6f94fbd41c28.js",
+            "87.20dbd77dcb3a8706.js",
+            "37.bf6d63e0bdd041ba.js"
+          ],
+          "sync": [
+            "953.609bdb25171344c9.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "user:@angular/platform-browser",
+      "name": "@angular/platform-browser",
+      "version": "18.2.0",
+      "singleton": true,
+      "requiredVersion": "^18.2.0",
+      "assets": {
+        "js": {
+          "async": [
+            "177.2bb31abe31023038.js",
+            "953.609bdb25171344c9.js",
+            "626.abe8a82209099999.js",
+            "656.05bb6f94fbd41c28.js",
+            "87.20dbd77dcb3a8706.js",
+            "37.bf6d63e0bdd041ba.js"
+          ],
+          "sync": [
+            "345.f871305265ba854e.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "user:@angular/router",
+      "name": "@angular/router",
+      "version": "18.2.0",
+      "singleton": true,
+      "requiredVersion": "^18.2.0",
+      "assets": {
+        "js": {
+          "async": [
+            "177.2bb31abe31023038.js",
+            "953.609bdb25171344c9.js",
+            "656.05bb6f94fbd41c28.js",
+            "87.20dbd77dcb3a8706.js",
+            "37.bf6d63e0bdd041ba.js",
+            "345.f871305265ba854e.js",
+            "626.abe8a82209099999.js"
+          ],
+          "sync": [
+            "901.21fd62ea064fbcf5.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "user:rxjs/operators",
+      "name": "rxjs/operators",
+      "version": "7.8.1",
+      "singleton": true,
+      "requiredVersion": "^7.8.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "37.bf6d63e0bdd041ba.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "user:rxjs",
+      "name": "rxjs",
+      "version": "7.8.1",
+      "singleton": true,
+      "requiredVersion": "^7.8.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "87.20dbd77dcb3a8706.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "id": "user:Module",
+      "name": "Module",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "path": "./Module"
+    }
+  ]
+}

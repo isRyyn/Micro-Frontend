@@ -1,0 +1,263 @@
+{
+  "id": "admin",
+  "name": "admin",
+  "metaData": {
+    "name": "admin",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.0",
+      "buildName": "@micro-frontend/source"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.mjs",
+      "path": "",
+      "type": "module"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "admin",
+    "pluginVersion": "0.2.8",
+    "publicPath": "auto"
+  },
+  "shared": [
+    {
+      "id": "admin:@angular/common/http",
+      "name": "@angular/common/http",
+      "version": "18.2.0",
+      "singleton": true,
+      "requiredVersion": "^18.2.0",
+      "assets": {
+        "js": {
+          "async": [
+            "177.2f6559ddfd3df3a7.js",
+            "953.df627756c49e5405.js",
+            "656.169be344357e75b0.js",
+            "87.4c9fadd4329f076b.js",
+            "37.ac93e25af9f1a49a.js"
+          ],
+          "sync": [
+            "626.3fac5c2b7f38d9a8.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "admin:@angular/common",
+      "name": "@angular/common",
+      "version": "18.2.0",
+      "singleton": true,
+      "requiredVersion": "^18.2.0",
+      "assets": {
+        "js": {
+          "async": [
+            "953.df627756c49e5405.js",
+            "656.169be344357e75b0.js",
+            "87.4c9fadd4329f076b.js",
+            "37.ac93e25af9f1a49a.js"
+          ],
+          "sync": [
+            "177.2f6559ddfd3df3a7.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "admin:@angular/core",
+      "name": "@angular/core",
+      "version": "18.2.0",
+      "singleton": true,
+      "requiredVersion": "^18.2.0",
+      "assets": {
+        "js": {
+          "async": [
+            "656.169be344357e75b0.js",
+            "87.4c9fadd4329f076b.js",
+            "37.ac93e25af9f1a49a.js"
+          ],
+          "sync": [
+            "953.df627756c49e5405.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "admin:@angular/forms",
+      "name": "@angular/forms",
+      "version": "18.2.0",
+      "singleton": true,
+      "requiredVersion": "^18.2.0",
+      "assets": {
+        "js": {
+          "async": [
+            "177.2f6559ddfd3df3a7.js",
+            "953.df627756c49e5405.js",
+            "656.169be344357e75b0.js",
+            "87.4c9fadd4329f076b.js",
+            "37.ac93e25af9f1a49a.js"
+          ],
+          "sync": [
+            "417.35669fa1ca0ab748.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "admin:@angular/platform-browser",
+      "name": "@angular/platform-browser",
+      "version": "18.2.0",
+      "singleton": true,
+      "requiredVersion": "^18.2.0",
+      "assets": {
+        "js": {
+          "async": [
+            "177.2f6559ddfd3df3a7.js",
+            "953.df627756c49e5405.js",
+            "626.3fac5c2b7f38d9a8.js",
+            "656.169be344357e75b0.js",
+            "87.4c9fadd4329f076b.js",
+            "37.ac93e25af9f1a49a.js"
+          ],
+          "sync": [
+            "345.d7df2e2af985021c.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "admin:@angular/router",
+      "name": "@angular/router",
+      "version": "18.2.0",
+      "singleton": true,
+      "requiredVersion": "^18.2.0",
+      "assets": {
+        "js": {
+          "async": [
+            "177.2f6559ddfd3df3a7.js",
+            "953.df627756c49e5405.js",
+            "656.169be344357e75b0.js",
+            "87.4c9fadd4329f076b.js",
+            "37.ac93e25af9f1a49a.js",
+            "345.d7df2e2af985021c.js",
+            "626.3fac5c2b7f38d9a8.js"
+          ],
+          "sync": [
+            "901.f9a52e2cb8930414.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "admin:@micro-frontend/shared-utils",
+      "name": "@micro-frontend/shared-utils",
+      "version": "0.0.0",
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "assets": {
+        "js": {
+          "async": [
+            "177.2f6559ddfd3df3a7.js",
+            "901.f9a52e2cb8930414.js",
+            "953.df627756c49e5405.js",
+            "417.35669fa1ca0ab748.js",
+            "626.3fac5c2b7f38d9a8.js",
+            "656.169be344357e75b0.js",
+            "87.4c9fadd4329f076b.js",
+            "37.ac93e25af9f1a49a.js",
+            "345.d7df2e2af985021c.js"
+          ],
+          "sync": [
+            "common.8c5d291f1dc92c47.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "admin:rxjs/operators",
+      "name": "rxjs/operators",
+      "version": "7.8.1",
+      "singleton": true,
+      "requiredVersion": "^7.8.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "37.ac93e25af9f1a49a.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "admin:rxjs",
+      "name": "rxjs",
+      "version": "7.8.1",
+      "singleton": true,
+      "requiredVersion": "^7.8.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "87.4c9fadd4329f076b.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "id": "admin:Module",
+      "name": "Module",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "path": "./Module"
+    }
+  ]
+}
