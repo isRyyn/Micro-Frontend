@@ -166,6 +166,37 @@
     },
     {
       "singleton": true,
+      "requiredVersion": "^undefined",
+      "shareScope": "default",
+      "name": "@micro-frontend/shared-utils",
+      "version": "0.0.0",
+      "eager": false,
+      "id": "user:@micro-frontend/shared-utils",
+      "assets": {
+        "js": {
+          "async": [
+            "177.2bb31abe31023038.js",
+            "901.21fd62ea064fbcf5.js",
+            "953.609bdb25171344c9.js",
+            "626.abe8a82209099999.js",
+            "656.05bb6f94fbd41c28.js",
+            "87.20dbd77dcb3a8706.js",
+            "37.bf6d63e0bdd041ba.js",
+            "345.f871305265ba854e.js"
+          ],
+          "sync": [
+            "common.f88b004c311e5566.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
       "requiredVersion": "^7.8.1",
       "shareScope": "default",
       "name": "rxjs/operators",

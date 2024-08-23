@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { User } from '@micro-frontend/shared-utils';
+import { SharedService, User } from '@micro-frontend/shared-utils';
 
 @Component({
   selector: 'app-user-entry',
@@ -7,10 +7,11 @@ import { User } from '@micro-frontend/shared-utils';
 styleUrls: ['./entry.component.scss']
 })
 export class RemoteEntryComponent {
-    user: User = {
-        id: 1,
-        name: 'John',
-        email: 'john@mail.com',
-        role:  'user'
-    };
+    user!: User;
+
+    constructor(private sharedService: SharedService) {}
+
+    ngOnInit(): void {
+        this.sharedService.getUserById(1).subscribe((r:any) => this.user = r['data'] as User);
+    }
 }
